@@ -1,3 +1,4 @@
+import plotly
 print('Run Started!\n')
 a=5
 b=5
@@ -14,4 +15,7 @@ print('3',c)
 print('4 Quotient: '+str(d/e))
 print('5',num1+num2)
 print('6',5%2,2%7)
+print('7',min("cat", "dog", "iguana", "anteater", "fish", "aardvark"))
+print('8',max("cat", "dog", "iguana", "anteater", "fish", "aardvark"))
+# min and max for Data sets ^
 print('\nRun Complete!')
