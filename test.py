@@ -1,4 +1,3 @@
-import plotly
 print('Run Started!\n')
 a=5
 b=5
