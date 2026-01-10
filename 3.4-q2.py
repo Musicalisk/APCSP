@@ -5,5 +5,5 @@
 # Hint: Since this lesson uses if-else statements, remember to use at least one if-else statement in each of your answers to receive full credit.
 top=int(input('Enter the numerator: '))
 bottom=int(input('Enter the denominator: '))
-if bottom==0:print('Cannot be divided by zero.')
+if bottom==0:print('Cannot divide by zero.')
 else:print('Decimal:',top/bottom)
