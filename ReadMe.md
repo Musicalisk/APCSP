@@ -1,1 +1,1 @@
-Repository for AP computer science principles in 2026
+Repository for AP computer science principles
