@@ -6,6 +6,8 @@ d=float(input('Enter num: '))
 e=float(input('Enter num: '))
 num1=float(input('Enter num: '))
 num2=float(input('Enter num: '))
+f=1
+sum=0
 print('1',a+b/a)
 print('2',31//3)
 # interger division ^
@@ -17,4 +19,9 @@ print('6',5%2,2%7)
 print('7',min("cat","dog","iguana","anteater","fish","aardvark"))
 print('8',max("cat","dog","iguana","anteater","fish","aardvark"))
 # min and max for Data sets ^
+while(f<10):
+    f=f+2
+    sum=sum+f
+print(sum)
+# loop ^
 print('\nRun Complete!')
