@@ -14,12 +14,6 @@ def draw_handler(canvas):
         canvas.draw_line((x-22,150),(x+22,150),2,'black')
     if x==275:
         y=-5
-    for i in range(1):
-        canvas.draw_circle((x,150), 50, 1, 'Black', 'Yellow')
-        canvas.draw_circle((x+22,125),5,1,'black','black')
-        canvas.draw_circle((x-22,125),5,1,'black','black')
-        canvas.draw_line((x-22,150),(x+22,150),2,'black')
-        canvas.draw_line((x-22,150),(x+22,150),2,'black')
     if x==25:
         y=5
 frame = simplegui.create_frame('Animation', 300, 300)
